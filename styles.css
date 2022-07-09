@@ -2,3 +2,22 @@
     margin: 0;
     padding: 0;
 }
+
+.navbar{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+}
+.nav-links ul{
+    display: flex;
+    list-style-type: none;
+}
+
+a{
+    padding: 5px;
+}
+
+
+
