@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+/*BLUE-GOLDEN THEME*/
+:root {
+    --color-body: rgb(202, 200, 187);
+    --color-heading: rgb(238, 243, 219);
+    --color-base: rgb(2, 35, 65);
+    --color-base2: rgb(2, 20, 39);
+    --color-brand: rgb(242, 169, 40);
+    --color-brand2: rgb(242, 169, 0);
+    --sidbar-width: 240px;
+    --font-base: "Bai Jamjuree";
+}
 
+/* GREEN-YELLOW THEME
 :root {
     --color-body: #b6cbce;
     --color-heading: #eef3db;
@@ -9,7 +21,7 @@
     --color-brand2: #deff58;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
-}
+}*/
 
 body {
     background-color: var(--color-base2);
@@ -93,7 +105,7 @@ img{
     .navbar{
         min-height: 100vh;
         width: var(--sidbar-width);
-        background:  linear-gradient(rgba(3, 63, 71, 0.8),rgba(3, 63, 71, 0.8)), url(../images/sidebar-img.jpg);
+        background:  linear-gradient(rgba(2, 35, 65, 0.8),rgba(2, 35, 65, 0.8)), url(../images/sidebar-img.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -108,11 +120,13 @@ img{
     }
 }
 
-@media (max-width: 425px){
+@media (max-width: 768px){
     .hidden{
         visibility: hidden;
+        display: none;
     }
 }
+
 
 /* BTN */
 
@@ -202,4 +216,8 @@ img{
     background-color: var(--color-base);
     border-radius: 100px;
     font-size: 24px;
+}
+
+.hidden a {
+    background-color: transparent
 }
