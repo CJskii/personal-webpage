@@ -108,6 +108,12 @@ img{
     }
 }
 
+@media (max-width: 425px){
+    .hidden{
+        visibility: hidden;
+    }
+}
+
 /* BTN */
 
 .btn{
@@ -187,7 +193,7 @@ img{
 
 
 
-.social-links a{
+.social-links a, #social{
     width: 40px;
     height: 40px;
     display: inline-flex;
